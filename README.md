@@ -62,7 +62,7 @@ git clone --recurse-submodules https://github.com/HazyResearch/hyena-dna.git && 
 - create a conda environment
 
 ```
-conda create -n hyena-dna python pytorch torchvision torchaudio pytorch-cuda -c pytorch -c nvidia
+conda create -n hyena-dna python pytorch torchvision torchaudio pytorch-cuda transformers==4.26.1 -c huggingface -c pytorch -c nvidia
 ```
 
 - install requirements:
